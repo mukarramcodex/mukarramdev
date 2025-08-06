@@ -53,7 +53,7 @@ const Navbar = ({ isDark, toggleTheme }: NavbarProps) => {
             className="text-2xl font-bold hero-text cursor-pointer"
             onClick={() => scrollToSection("#home")}
           >
-            Portfolio
+            Mukkarram.dev
           </motion.div>
 
           {/* Desktop Navigation */}
