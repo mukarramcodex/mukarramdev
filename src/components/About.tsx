@@ -10,8 +10,9 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const skills = [
-    { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js"] },
-    { category: "Backend", items: ["Node.js", "Python", "PostgreSQL", "MongoDB"] },
+    { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue", "Nuxt.js", "Blade", "LiveWire"] },
+    { category: "Backend", items: ["PHP", "Laravel","Node.js", "Python", "PostgreSQL", "MySql"] },
+    { category: "CMS", items: ["WordPress", "Magento", "Shopify", "Durapal"]},
     { category: "Tools", items: ["Git", "Docker", "AWS", "Figma"] },
   ];
 

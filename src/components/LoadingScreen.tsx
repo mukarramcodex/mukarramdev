@@ -51,7 +51,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
                 transition={{ delay: 0.5 }}
                 className="text-2xl font-bold hero-text"
               >
-                AJ
+                M
               </motion.span>
             </div>
           </div>
