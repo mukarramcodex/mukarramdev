@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Code, Palette, Rocket, Heart } from "lucide-react";
-import profileImage from "@/assets/profile-image.jpg";
+// import profileImage from "@/assets/profile-image.jpg";
+import profile from "@/assets/profile.jpg"
 
 const About = () => {
   const ref = useRef(null);
@@ -16,21 +17,27 @@ const About = () => {
 
   const timeline = [
     {
-      year: "2024",
-      title: "Senior Full-Stack Developer",
-      company: "Tech Innovations Inc.",
+      year: "2025",
+      title: "Full-Stack Developer",
+      company: "Slick Digital Agency",
       description: "Leading development of scalable web applications using React and Node.js. Mentoring junior developers and implementing best practices.",
     },
     {
-      year: "2022",
-      title: "Full-Stack Developer",
-      company: "Digital Solutions Co.",
+      year: "2024",
+      title: "Full-Stack WordPress Developer",
+      company: "DotMedia & Technologies",
       description: "Built responsive web applications and RESTful APIs. Collaborated with design teams to create user-centered experiences.",
     },
     {
-      year: "2020",
+      year: "2023",
+      title: "Full-Stack WordPress Developer",
+      company: "TechRamp Solution",
+      description: "Built responsive web applications and RESTful APIs. Collaborated with design teams to create user-centered experiences.",
+    },
+    {
+      year: "2022",
       title: "Frontend Developer",
-      company: "Creative Agency",
+      company: "Xio Solutions",
       description: "Developed interactive websites and web applications. Specialized in modern JavaScript frameworks and responsive design.",
     },
     {
@@ -69,8 +76,8 @@ const About = () => {
           >
             <div className="relative inline-block mb-8">
               <img
-                src={profileImage}
-                alt="Alex Johnson"
+                src={profile}
+                alt="Mukarram.dev"
                 className="w-64 h-64 rounded-full object-cover border-4 border-primary/20 floating-animation"
               />
               <div className="absolute inset-0 rounded-full bg-primary/10 -z-10 blur-xl" />
