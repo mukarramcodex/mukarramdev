@@ -65,7 +65,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
           className="mb-8"
         >
           <h1 className="text-2xl font-bold hero-text mb-2">
-            Alex Johnson
+            Mukarram.dev
           </h1>
           <p className="text-muted-foreground">
             Loading portfolio...
