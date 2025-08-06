@@ -46,7 +46,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-6xl md:text-8xl font-bold mb-6 hero-text"
           >
-            Alex Johnson
+            Mukarram
           </motion.h1>
 
           <motion.h2
@@ -55,7 +55,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-2xl md:text-4xl font-light text-foreground/80 mb-8 max-w-4xl mx-auto"
           >
-            Full-Stack Developer & Creative Problem Solver
+            Full-Stack Developer
           </motion.h2>
 
           <motion.p
