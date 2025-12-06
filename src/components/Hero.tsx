@@ -55,7 +55,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-2xl md:text-4xl font-light text-foreground/80 mb-8 max-w-4xl mx-auto"
           >
-            Full-Stack Developer
+            Full-Stack Front-End & CMS Developer
           </motion.h2>
 
           <motion.p
@@ -106,9 +106,9 @@ const Hero = () => {
             className="flex justify-center space-x-6 mb-12"
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#contact", label: "Email" },
+              { icon: Github, href: "https://github.com/mukarramcodex", label: "GitHub", target: "_blank" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/mukarramcodex/", label: "LinkedIn", target: "_blank" },
+              { icon: Mail, href: "mailto:info@mukarramali.net", label: "Email", target: "_blank" },
             ].map((social, index) => (
               <motion.a
                 key={social.label}

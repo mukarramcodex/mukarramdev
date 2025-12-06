@@ -10,10 +10,9 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const skills = [
-    { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue", "Nuxt.js", "Blade", "LiveWire"] },
-    { category: "Backend", items: ["PHP", "Laravel","Node.js", "Python", "PostgreSQL", "MySql"] },
+    { category: "Frontend", items: ["React", "Next.js", "Vue", "Nuxt Js", "Angular", "LiveWire", "Blade", "React Native", "Flutter"] },
+    { category: "UI/UX & Styling", items: ["Bootstrap", "SASS", "SCSS"] },
     { category: "CMS", items: ["WordPress", "Magento", "Shopify", "Durapal"]},
-    { category: "Tools", items: ["Git", "Docker", "AWS", "Figma"] },
   ];
 
   const timeline = [
@@ -26,7 +25,7 @@ const About = () => {
     {
       year: "2024",
       title: "Full-Stack WordPress Developer",
-      company: "DotMedia & Technologies",
+      company: "DotMedia Technologies",
       description: "Built responsive web applications and RESTful APIs. Collaborated with design teams to create user-centered experiences.",
     },
     {
