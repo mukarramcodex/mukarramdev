@@ -18,13 +18,13 @@ const About = () => {
   const timeline = [
     {
       year: "2025",
-      title: "Full-Stack Developer",
+      title: "CT0 & Full-Stack Front-End & CMS Developer",
       company: "Slick Digital Agency",
       description: "Leading development of scalable web applications using React and Node.js. Mentoring junior developers and implementing best practices.",
     },
     {
       year: "2024",
-      title: "Full-Stack WordPress Developer",
+      title: "Full-Stack CMS Developer",
       company: "DotMedia Technologies",
       description: "Built responsive web applications and RESTful APIs. Collaborated with design teams to create user-centered experiences.",
     },
