@@ -43,7 +43,7 @@ const About = () => {
     {
       year: "2019",
       title: "Computer Science Graduate",
-      company: "University of Technology",
+      company: "Swedish Institute of Technology",
       description: "Bachelor's degree in Computer Science with focus on software engineering and web development.",
     },
   ];
